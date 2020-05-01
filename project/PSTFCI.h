@@ -29,6 +29,17 @@ private:
         newnode->Left = newnode->Right = NULL;
         return newnode;
     }
+    int max(int num1, int num2)const
+    {
+        return (num1>=num2)?num1:num2;
+    }
+    int hight(PSTNODE<type>* root) const
+    {
+        if(root == NULL)
+            return 0;
+        else
+            return 1 + max(hight(root->Right),hight(root->Left));
+    }
 public:
     PSTFCI()
     {
@@ -74,6 +85,10 @@ public:
             cout << Root->Value << " ";
             Inorder(Root->Right);
         }
+    }
+    int PSTHight()
+    {
+        hight(Root);
     }
 };
 
