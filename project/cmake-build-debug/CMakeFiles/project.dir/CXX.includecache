@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abdelrhman/study/assignment3_tree_dataStructure/project/PSTFCI.h
+stdlib.h
+-
+iostream
+-
+
+/home/abdelrhman/study/assignment3_tree_dataStructure/project/main.cpp
+iostream
+-
+string
+-
+PSTFCI.h
+/home/abdelrhman/study/assignment3_tree_dataStructure/project/PSTFCI.h
+
