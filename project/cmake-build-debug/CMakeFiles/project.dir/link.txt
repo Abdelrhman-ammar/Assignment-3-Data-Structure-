@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/project.dir/main.cpp.o CMakeFiles/project.dir/PSTFCI.cpp.o  -o project 
